@@ -1,0 +1,174 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+.hatter {
+    background-color: #1f2937;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+.logo {
+    width: 48x;
+    height: 48px;
+
+
+}
+
+.headerlinks {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    font-size: 18px;
+}
+.underline {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.Hero {
+    display: flex;
+    align-items: center;
+    gap: 52px;
+    justify-content: space-between;
+    background-color: #1f2937;
+
+}
+
+.heroszoveg {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+}
+.heroparagraph {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.herokep {
+    width: 100%;
+    height: auto;
+}
+.herokepcontainer {
+    display: flex;
+    justify-content: right;
+}
+.herobutton {
+    border-radius: 4px;
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 6px 24px;
+    font-weight: 700;
+    transition-duration: 0.4s;
+}
+.herobutton:hover {
+    background-color: white;
+    color: #3882F6;
+}
+.randominfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 44.83px;
+}
+.randomtitle {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+.cardcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 54px;
+}
+.card {
+    max-width: 160px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.subtext {
+    color: #808080;
+    font-size: 18px;
+}
+.Food {
+border: 5px solid #3882f6;
+border-radius: 16px;
+width: 160px;
+height: auto;
+}
+.idezetescucc {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-right: 200px;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    gap: 24px;
+}
+.qoute {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+.author {
+    display: flex;
+    justify-content: end;
+    font-weight: 900;
+    font-size: 24px;
+    padding-right: 72px;
+}
+.signup {
+    padding: 80px 240px 80px 240px;
+}
+.signuphatter {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-between;
+    padding: 20px 60px 20px 60px;
+    border-radius: 8px;
+}
+.signuptitle {
+    color: white;
+    font-size: 24px;
+}
+.signupnormal {
+    color: #E5E7EB;
+}
+.alsobutton {
+    border-radius: 4px;
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 6px 24px;
+    font-weight: 700;
+    transition-duration: 0.4s;
+    border: 2px solid white;
+    padding: 1px 24px 1px 24px;
+}
+.alsobutton:hover {
+    background-color: white;
+    color: #3882F6;
+}
+.footer {
+    background-color: #1f2937;
+    color: #E5E7EB;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0px;
+}
